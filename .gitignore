@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Manim / Media Output (Do not push large video folders)
+media/
+__pycache__/
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Documentation Temp Files
+~$*.docx
